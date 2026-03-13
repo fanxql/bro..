@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>bro..</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">bro<span class="dots">..</span></div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Hey, <span class="highlight">Bro</span><span class="dots">..</span></h1>
+        <p class="tagline">Your go-to place for everything awesome.</p>
+        <a href="#features" class="btn-primary">Get Started</a>
+      </div>
+      <div class="hero-visual">
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+        <div class="circle c3"></div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About <span class="highlight">bro..</span></h2>
+      <p>
+        bro.. is the ultimate destination for chill vibes, cool ideas, and
+        getting stuff done. We keep it simple, fast, and fun — just the way
+        it should be.
+      </p>
+    </section>
+
+    <section id="features" class="features">
+      <h2>What We've Got</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon">🚀</div>
+          <h3>Fast</h3>
+          <p>Lightning-quick experience so you never have to wait around.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🎯</div>
+          <h3>Focused</h3>
+          <p>Everything you need, nothing you don't. Clean and to the point.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🤝</div>
+          <h3>Community</h3>
+          <p>Connect with your bros and build something great together.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔥</div>
+          <h3>Trending</h3>
+          <p>Stay on top of what's hot with real-time updates.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Get in Touch</h2>
+      <p>Got something to say? Drop us a line.</p>
+      <form class="contact-form" id="contactForm">
+        <input type="text" id="name" placeholder="Your name" required />
+        <input type="email" id="email" placeholder="Your email" required />
+        <textarea id="message" placeholder="What's up?" rows="4" required></textarea>
+        <button type="submit" class="btn-primary">Send It</button>
+      </form>
+      <p id="formMessage" class="form-message"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>bro.. &copy; <span id="year"></span> — built with ❤️ and good vibes</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
