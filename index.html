@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>bro..</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <span class="logo">bro..</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">bro..</h1>
+        <p class="hero-subtitle">hey bro, welcome.</p>
+        <a href="#about" class="btn btn-primary">learn more</a>
+      </div>
+      <div class="hero-animation" aria-hidden="true">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <p class="section-text">
+          bro.. is a place where things happen. simple, clean, and straight to the point.
+          no fluff, just vibes.
+        </p>
+      </div>
+    </section>
+
+    <section id="features" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Features</h2>
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-icon">🚀</div>
+            <h3>Fast</h3>
+            <p>Lightweight and quick. No unnecessary bloat.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">✨</div>
+            <h3>Simple</h3>
+            <p>Clean design that gets out of your way.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">🔥</div>
+            <h3>Chill</h3>
+            <p>Relaxed atmosphere. We keep it easy here.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-text">got something to say? drop a message.</p>
+        <form class="contact-form" id="contactForm">
+          <input
+            type="text"
+            id="nameInput"
+            placeholder="your name"
+            autocomplete="name"
+            required
+          />
+          <input
+            type="email"
+            id="emailInput"
+            placeholder="your email"
+            autocomplete="email"
+            required
+          />
+          <textarea
+            id="messageInput"
+            placeholder="your message"
+            rows="4"
+            required
+          ></textarea>
+          <button type="submit" class="btn btn-primary">send it</button>
+        </form>
+        <p class="form-status" id="formStatus" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> bro.. — all rights reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
